@@ -14,7 +14,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     try {
       isLogin ? await login(email, password) : await signup(email, password);
-      navigate("/dashboard"); 
+      navigate("/contacts"); 
     } catch (error) {
       console.error("Authentication error:", error.message);
     }
