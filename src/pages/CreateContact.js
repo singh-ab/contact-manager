@@ -26,7 +26,7 @@ export default function CreateContact() {
       company,
       jobTitle,
     });
-    navigate("/"); // Redirect to the appropriate route after creation
+    navigate("/");
   };
 
   return (

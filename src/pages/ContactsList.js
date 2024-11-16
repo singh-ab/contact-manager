@@ -79,7 +79,6 @@ export default function ContactsList() {
     if (orderBy === 'firstName') {
       return order === 'asc' ? a.firstName.localeCompare(b.firstName) : b.firstName.localeCompare(a.firstName);
     }
-    // Add more sorting logic for other fields if needed
     return 0;
   });
 

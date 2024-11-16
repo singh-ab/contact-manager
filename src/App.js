@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import CreateContact from "./pages/CreateContact";
-import ContactDetail from "./pages/ContactDetail"; // Create this component for editing contacts
-import ContactsList from "./pages/ContactsList"; // New component for displaying contacts list
+import ContactDetail from "./pages/ContactDetail"; 
+import ContactsList from "./pages/ContactsList";
 import { AuthProvider } from "./components/auth";
 import Signout from "./components/Signout";
 import './pages/Login.css';
